@@ -1,80 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Site Responsivo</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Semântica do HTML</title>
 </head>
-<body>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Wash2026" />
+    <link rel="manifest" href="/site.webmanifest" />
+<body bgcolor="#b5c4f5">
+    <!-- Cabeçalho da página - esta linha é um comentário -->
+    <header>
+        <h1>Estrutura Semântica do HTML</h1> <!-- <h1>Estrutura Semântica do HTML</h1> -->
 
-    <a href="../index.html"><button style="background-color: rgb(140, 70, 197); width: 70px; height: 30px; color: #f8f8f8; border:2px solid hsl(273, 100%, 27%); border-radius: 35px">Voltar</button></a>
+    </header>
+    <!--Conteúdo principal da página -->
+    <main>  
+        <p>Meu diretório de arquivos.</p>
+        <a href="./aula1/index.html">
+            <button style="background-color: rgb(108, 127, 233); width: 70px; height: 30px; color: #ffffff; border:2px solid hsl(223, 90%, 44%); border-radius: 35px">Aula 1</button></a>
+
+        <a href="./aula2/index.html"><button style="background-color: rgb(28, 233, 42); width: 70px; height: 30px; color: #000000; border:2px solid hsl(136, 88%, 20%); border-radius: 35px">Aula 2</button></a>
+
+        <a href="./aula3/index.html"><button style="background-color: rgb(140, 70, 197); width: 70px; height: 30px; color: #f8f8f8; border:2px solid hsl(273, 100%, 27%); border-radius: 35px">Aula 3</button></a>
+
+        <a href="./aula4/index.html"><button style="background-color: rgb(220, 30, 9); width: 70px; height: 30px; color: #ffffff; border:2px solid hsl(11, 81%, 19%); border-radius: 35px">Aula 4</button></a>
+
+        <a href="./aula5/index.html"><button style="background-color: rgb(170, 136, 34); width: 70px; height: 30px; color: #ffffff; border:2px solid hsl(51, 96%, 18%); border-radius: 35px">Aula 5</button></a>
+
+        <a href="./aula6/index.html"><button style="background-color: rgb(134, 132, 223); width: 70px; height: 30px; color: #f8f8f8; border:2px solid hsla(120, 89%, 14%, 0.493); border-radius: 35px">Aula 6</button></a>
+
+        <a href="./aula7/index.html"><button style="background-color: rgb(43, 47, 14); width: 70px; height: 30px; color: #f8f8f8; border:2px solid hsl(59, 93%, 45%); border-radius: 35px">Aula 7</button></a>
+
+        <a href="./aula8/auxilio.html"><button style="background-color: rgb(14, 135, 196); width: 70px; height: 30px; color: #f7f4f4; border:2px solid hsl(236, 67%, 54%); border-radius: 35px">Aula 8</button></a>
+
+        <a href="./aula9/classes.html"><button style="background-color: rgb(26, 210, 217); width: 70px; height: 30px; color: #167166; border:2px solid hsl(167, 83%, 27%); border-radius: 35px">Aula 9</button></a>
+
+        <a href="./aula10/index.html"><button style="background-color: rgb(111, 16, 106); width: 70px; height: 30px; color: #f8f8f8; border:2px solid hsl(292, 66%, 41%); border-radius: 35px">Aula 10</button></a>
+
+        <a href="./aula11/reserva.html"><button style="background-color: rgb(16, 106, 106); width: 70px; height: 30px; color: #f8f8f8; border:2px solid hsl(180, 71%, 24%); border-radius: 35px">Aula 11</button></a>
+
+        <a href="./quiz/index.html"><button style="background-color: rgb(106, 16, 16); width: 70px; height: 30px; color: #f8f8f8; border:2px solid hsl(0, 76%, 24%); border-radius: 35px">Quiz</button></a>
+
+         <a href="./aula12/index.html"><button style="background-color: rgb(176, 65, 186); width: 70px; height: 30px; color: #f8f8f8; border:2px solid hsl(290, 79%, 30%); border-radius: 35px">Aula 12</button></a>
+
+         <a href="./aula12personalizada/personalizado/index.html"><button style="background-color: rgb(112, 7, 7); width: 70px; height: 30px; color: #f8f8f8; border:2px solid hsl(0, 95%, 43%); border-radius: 35px">Criado</button></a>
+
+         <a href="./aula13/index.html"><button style="background-color: rgb(203, 175, 17); width: 70px; height: 30px; color: #f8f8f8; border:2px solid hsl(54, 90%, 23%); border-radius: 35px">Aula 13</button></a>
 
 
-  <!-- Anotação -->
-  <div class="anotacao">
-    <p>Diminua a janela do navegador para ver o efeito de responsividade.</p>
-  </div>
-
-  <!-- Cabeçalho -->
-  <header class="cabecalho">
-    <h1>Site Responsivo Mobile/Desktop</h1>
-    <p>Com <b>layout</b> responsivo.</p>
-  </header>
-
-  <!-- Barra de navegação -->
-  <nav class="barra_nav">
-    <a href="#">Início</a>
-    <a href="#">Página 2</a>
-    <a href="#">Página 3</a>
-    <a href="#">Página 4</a>
-  </nav>
-
-  <!-- Layout flexível (conteúdo) -->
-  <div class="coluna">
-
-    <aside class="lateral">
-      <h2>Sobre mim</h2>
-      <p class="legenda">Foto:</p>
-      <div class="imagem_falsa">
-  <img src="imagem/imagem1.webp" width="280" height="160" alt="Descrição da imagem">
-</div>
-      <p>Algum texto genérico para marcar o espaço utilizado no parágrafo.</p>
-      <h3>Mais texto</h3>
-      <p>Algum texto genérico para marcar o espaço utilizado no parágrafo.</p>
-      <div class="imagem_falsa2">
-  <img src="imagem/imagem3.jpg" width="210" height="160" alt="Descrição da imagem">
-</div>
-    </aside>
-
-    <main class="principal">
-      <article>
-        <h2>TÍTULO DO TEXTO</h2>
-        <p class="legenda">Texto descritivo, 17 de março de 2023</p>
-        <div class="imagem_falsa3">
-          <img src="imagem/imagem4.webp" width="210" height="160" alt="Descrição da imagem">
-        </div>
-        <h3>Mais texto</h3>
-        <p>Algum texto genérico para marcar o espaço utilizado no parágrafo.</p>
-      </article>
-
-      <article>
-        <h2>TÍTULO DO TEXTO</h2>
-        <p class="legenda">Texto descritivo, 16 de março de 2023</p>
-        <div class="imagem_falsa3">
-          <img src="imagem/imagem5.webp" width="210" height="160" alt="Descrição da imagem">
-        </div>
-        <h3>Mais texto</h3>
-        <p>Algum texto genérico para marcar o espaço utilizado no parágrafo.</p>
-      </article>
-    </main>
-
-  </div>
-
-  <!-- Rodapé -->
-  <footer class="rodape">
-    <p>Seu Nome &copy;</p>
-  </footer>
-
+        </main>
+        <!-- Rodapé da página - esta linha é um comentário-->
+    <footer>
+        <!-- O símbolo de copyright é um caractere special &copy;-->
+        <p>&copy; 2026 TDS1. Linguagem de Marcação</p>
+        <p> Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
